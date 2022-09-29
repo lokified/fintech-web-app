@@ -1,0 +1,30 @@
+.news-card {
+    background-color: white;
+    width: 230px;
+    padding: .7rem;
+    border-radius: .3rem;
+    max-height: 16rem;
+    text-align: center;
+}
+
+.news-card p {
+    font-size: .9rem;
+    max-lines: 8;
+    overflow: hidden;
+}
+
+.news-card button {
+
+    outline: none;
+    border: 1px solid var(--secondary-color);
+    border-radius: .1rem;
+    padding:.2rem .8rem;
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+.news-card button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transition: var(--transition);
+}

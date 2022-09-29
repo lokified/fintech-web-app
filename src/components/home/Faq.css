@@ -1,0 +1,18 @@
+.faq-card {
+
+    width: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.desc {
+    display: none;
+    font-size: .9rem;
+    color: rgb(134, 35, 35);
+    transition: all 1000ms ease-in-out ;
+}
+
+.desc.active {
+    display: block;
+    transition: all 1000ms ease-in ;
+}

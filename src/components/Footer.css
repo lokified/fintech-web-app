@@ -1,0 +1,112 @@
+
+footer {
+    background-color: black;
+    height: 65vh;
+    color: rgb(226, 216, 216);
+}
+
+footer h6 {
+    color: rgb(158, 158, 158);
+}
+
+.footer-section {
+    padding: 4rem 0 0 0;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    padding-bottom: 2rem;
+}
+
+.footer-section-1 {
+    width: 35%;
+}
+
+.footer-section-1 div {
+    margin-top: .8rem;
+}
+
+.footer-section-3 a {
+    text-decoration: none;
+    color: rgb(226, 216, 216);
+}
+
+.footer-section-3 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: var(--transition);
+    color:rgb(226, 216, 216) 
+}
+
+.footer-section-3 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.socials {
+    margin: .5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials img {
+    width: 50%;
+    margin: .5rem;
+}
+
+.footer-end {
+    margin-top: 2rem;
+}
+
+/* tablets */
+@media screen and (max-width : 1024px) {
+
+    footer {
+        height: 100%;
+    }
+
+    .footer-end {
+        padding-bottom: 1rem;
+    }
+
+}
+
+
+/* phones */
+@media screen and (max-width : 780px) {
+    footer {
+        height: 100%;
+    }
+
+    .footer-main {
+      flex-direction: column;
+    }
+
+    footer h6 {
+      margin-top: 2rem;
+    }
+
+    .footer-section-1 {
+      width: 100%;
+    }
+
+    .socials {
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .socials img {
+        width: 5%;
+    }
+}
+
+@media screen and (max-width : 370px) {
+
+    
+}

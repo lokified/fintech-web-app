@@ -1,0 +1,34 @@
+.card-services {
+    width: 200px;
+    padding: 1rem 0;
+    text-align: center;
+    border: transparent;
+    border-radius: .4rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: var(--transition);
+    margin: .2rem;
+    
+}
+
+.card-services img {
+    width: 40%;
+}
+
+.card-services > p {
+    font-size: .9rem;
+    padding: 0 1rem;
+}
+
+.card-services:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: var(--transition);
+}
+
+/* tablets */
+@media screen and (max-width : 770px) {
+
+    .card-services {
+        margin-top: 2rem;
+    }
+
+}

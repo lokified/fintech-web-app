@@ -1,0 +1,133 @@
+
+.intro-section {
+    background: url("/public/images/into.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: rgb(0,0,0,.1);
+    width: 100%;
+}
+
+.intro-content {
+    padding-top: 8rem;
+    color: var(--primary-color);
+}
+
+.intro-content h6{
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.intro-btn {
+    margin-top: 5rem;
+}
+
+.intro-btn button {
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: .2rem;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    transition: var(--transition);
+}
+
+.intro-btn button:hover {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    padding-right: 4rem;
+    width: 14rem;
+    transition: var(--transition);
+}
+
+
+
+.services-section {
+    margin-top: 5rem;
+}
+
+.service-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-header h1{
+    color: var(--secondary-color);
+}
+
+.inside-section {
+    margin-top: 10rem;
+}
+
+.inside-img img {
+    width: 70%;
+    border-radius: .5rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.inside-description h1 {
+    color: var(--secondary-color);
+}
+
+.inside-description p {
+    margin-top: 1rem;
+    width: 70%;
+}
+
+.inside-description button {
+    margin-top: 2rem;
+    outline: none;
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    border-radius: .2rem;
+    width: 12rem;
+    height: 3rem;
+    color: var(--secondary-color);
+    transition: var(--transition);
+    box-shadow: rgba(235, 16, 34, 0.4) -5px 5px, rgba(240, 46, 78, 0.3) -10px 10px, rgba(240, 46, 46, 0.2) -15px 15px, rgba(240, 46, 72, 0.1) -20px 20px, rgba(240, 46, 46, 0.05) -25px 25px;
+}
+
+.inside-description button:hover {
+    border: 1px solid rgb(161, 44, 44);
+    color: rgb(161, 44, 44);
+    transition: var(--transition);
+}
+
+.news-section {
+    background: var(--secondary-color);
+    height: 25rem;
+    border-radius: .5rem;
+    margin-top: 8rem;
+}
+
+.faq-section h3 {
+    margin-top: 7rem;
+}
+
+/* tablets */
+@media screen and (max-width : 770px) {
+
+    .inside-img img {
+        margin-top: 6rem;
+    }
+
+}
+
+@media screen and (max-width : 580px) {
+
+    .intro-content {
+        text-align: center;
+    }
+
+    .intro-description {
+        margin: auto;
+    }
+
+}
