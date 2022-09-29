@@ -57,7 +57,7 @@ export const Home = () => {
               </div>
 
               <div className="col-md-6 inside-img">
-                <img src="/images/grow.jpg" />
+                <img src="./images/grow.jpg" />
               </div>
             </div>
           </div>

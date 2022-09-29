@@ -11,7 +11,7 @@ export const Footer = () => {
             <div className="container footer-section">
               <div className="footer-main">
                 <div className="footer-section-1">
-                  <img src="/images/logo-white.svg" />
+                  <img src="./images/logo-white.svg" />
                   <div>
                     Bird is an international banking app that offers to non-US
                     residents and businesses a fully featured US-domiciled, FDIC
@@ -45,9 +45,9 @@ export const Footer = () => {
                 <div className="footer-section-4">
                   <h6>socials</h6>
                   <div className="socials">
-                    <img src="/images/facebook.svg" />
-                    <img src="/images/twitter.svg" />
-                    <img src="/images/linkedIn.svg" />
+                    <img src="./images/facebook.svg" />
+                    <img src="./images/twitter.svg" />
+                    <img src="./images/linkedIn.svg" />
                   </div>
                 </div>
               </div>

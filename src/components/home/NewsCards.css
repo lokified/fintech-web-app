@@ -1,5 +1,5 @@
-.news-cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+.swiper {
+  width: 50%;
+  height: 50%;
 }
