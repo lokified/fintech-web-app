@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/fintech-web-app/static/css/main.b61f2dfa.css",
-    "main.js": "/fintech-web-app/static/js/main.9f4316ac.js",
+    "main.css": "/fintech-web-app/static/css/main.b72d4081.css",
+    "main.js": "/fintech-web-app/static/js/main.fe8e4a28.js",
     "static/js/787.0788ff94.chunk.js": "/fintech-web-app/static/js/787.0788ff94.chunk.js",
     "static/media/into.jpg": "/fintech-web-app/static/media/into.d57c6f5f9798b0b806e5.jpg",
     "static/media/logo.svg": "/fintech-web-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/fintech-web-app/index.html",
-    "main.b61f2dfa.css.map": "/fintech-web-app/static/css/main.b61f2dfa.css.map",
-    "main.9f4316ac.js.map": "/fintech-web-app/static/js/main.9f4316ac.js.map",
+    "main.b72d4081.css.map": "/fintech-web-app/static/css/main.b72d4081.css.map",
+    "main.fe8e4a28.js.map": "/fintech-web-app/static/js/main.fe8e4a28.js.map",
     "787.0788ff94.chunk.js.map": "/fintech-web-app/static/js/787.0788ff94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b61f2dfa.css",
-    "static/js/main.9f4316ac.js"
+    "static/css/main.b72d4081.css",
+    "static/js/main.fe8e4a28.js"
   ]
 }
