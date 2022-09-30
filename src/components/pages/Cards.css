@@ -1,0 +1,30 @@
+.cards-section {
+    margin-top: 8rem;
+}
+
+.credit-card {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.credit-card img {
+    width: 20%;
+    margin-top: -2rem;
+}
+
+.credit-desc {
+    margin-left: 2rem;
+}
+
+.credit-desc h6 {
+    font-size: .9rem;
+}
+
+.credit-desc p {
+    font-size: .8rem;
+}
+
+.info-section {
+    text-align: center;
+    margin: 2rem 0;
+}

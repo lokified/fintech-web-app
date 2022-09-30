@@ -27,7 +27,9 @@
     margin-top: 5rem;
 }
 
-.intro-btn button {
+.intro-btn a {
+    text-decoration: none;
+    padding: .8rem 2rem;
     outline: none;
     border: 1px solid white;
     background-color: transparent;
@@ -38,7 +40,7 @@
     transition: var(--transition);
 }
 
-.intro-btn button:hover {
+.intro-btn a:hover {
     border-color: var(--secondary-color);
     color: var(--secondary-color);
     padding-right: 4rem;
@@ -107,11 +109,59 @@
     margin-top: 8rem;
 }
 
-.faq-section h3 {
-    margin-top: 7rem;
+.help-section  {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-section h4 {
+    color: var(--secondary-color);
+}
+
+.help-menu-items li {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.help-menu-items li:hover {
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+.help {
+    margin: 0 2rem;
+    padding-left: 2rem;
+    border-left: 1px solid rgb(206, 204, 204);
+}
+
+.help button {
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-size: .8rem;
+    transition: var(--transition);
+}
+
+.help button:hover {
+    border: 1px solid rgb(134, 36, 36);
+    color: rgb(134, 36, 36);
+    transition: var(--transition);
 }
 
 /* tablets */
+
+@media screen and (max-width : 1024px) {
+    .help-section{
+        flex-wrap: wrap;
+    }
+
+    .help {
+        margin-top: 4rem;
+    }
+
+}
+
 @media screen and (max-width : 770px) {
 
     .inside-img img {

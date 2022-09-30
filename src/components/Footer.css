@@ -64,13 +64,11 @@ footer h6 {
     margin-top: 2rem;
 }
 
-/* tablets */
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1300px) {
 
     footer {
         height: 100%;
     }
-
     .footer-end {
         padding-bottom: 1rem;
     }
@@ -80,9 +78,6 @@ footer h6 {
 
 /* phones */
 @media screen and (max-width : 780px) {
-    footer {
-        height: 100%;
-    }
 
     .footer-main {
       flex-direction: column;
@@ -104,9 +99,4 @@ footer h6 {
     .socials img {
         width: 5%;
     }
-}
-
-@media screen and (max-width : 370px) {
-
-    
 }

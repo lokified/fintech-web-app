@@ -29,8 +29,8 @@ export const NavBar = () => {
                 </li>
 
                 <li>
-                  <Link to="/blog" onClick={closeMobileMenu}>
-                    Blog
+                  <Link to="/card" onClick={closeMobileMenu}>
+                    Cards
                   </Link>
                 </li>
 
@@ -41,7 +41,7 @@ export const NavBar = () => {
                 </li>
 
                 <li>
-                  <Link onClick={closeMobileMenu} className = "faq-nav"> FAQs </Link>
+                  <Link to="/login" onClick={closeMobileMenu} className = "faq-nav"> Login </Link>
                 </li>
 
               </ul>
@@ -49,7 +49,7 @@ export const NavBar = () => {
           </div>
 
           <div className="nav_btn">
-            <button> FAQs </button>
+            <Link to="/login"> Login </Link>
           </div>
 
           <button onClick={handleClick} className="drop-btn">

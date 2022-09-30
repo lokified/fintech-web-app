@@ -13,7 +13,7 @@ export const Footer = () => {
                 <div className="footer-section-1">
                   <img src="./images/logo-white.svg" />
                   <div>
-                    Bird is an international banking app that offers to non-US
+                    Bird is a bank that offers to non-US
                     residents and businesses a fully featured US-domiciled, FDIC
                     insured bank account with debit cards, international and
                     local transfers, wealth building account, payment
@@ -34,7 +34,7 @@ export const Footer = () => {
                 <div className="footer-section-3">
                   <h6>support</h6>
                   <div>
-                    <p>Blog</p>
+                    <p>News</p>
                     <p>FAQ</p>
                     <p>Privacy Policy</p>
                     <p>Terms and conditions</p>

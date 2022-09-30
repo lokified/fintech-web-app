@@ -1,0 +1,35 @@
+.login-section {
+    margin: 8rem 0;
+
+}
+
+.login-form input {
+    margin: .5rem 0;
+}
+
+.login-form button {
+    background-color: var(--secondary-color);
+    color: white;
+    outline: none;
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: .2rem;
+    margin: 1rem 1.5rem;
+}
+
+.login-form a {
+    color: black;
+    margin-left: 3rem;
+}
+
+.login-form a:hover {
+    color: var(--secondary-color);
+}
+
+.login-form  {
+    margin-top: 5rem;
+}
+
+.login-section img {
+    margin-top: -5rem;
+}
